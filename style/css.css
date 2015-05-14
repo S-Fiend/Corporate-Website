@@ -1,0 +1,244 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Arial";
+	font-size: 12px;
+}
+.title {
+	background: url("../images/bg1.jpg");
+	height: 79px;
+	width: 100%;
+}
+
+.logo {
+	width: 1000px;
+	height: 79px;
+	margin: 0 auto;
+	overflow: hidden; 
+}
+.logo_left {
+	float: left;
+	margin-left: 50px;
+}
+.logo_right {
+	width: 209px;
+	float: right;
+	height: 79px;
+	color: #fff;
+	background: url("../images/bg1.png") no-repeat center;
+	line-height: 79px;
+	padding-left: 100px;
+}
+.index {
+	background: url("../images/bg2.jpg");
+	height: 40px;
+	width: 100%;
+}
+.index_content {
+	position: relative;
+	width: 1000px;
+	height: 40px;
+	margin: 0 auto;
+}
+.index_content ul li {
+	position: relative;
+	list-style-type: none;
+
+}
+.index_content ul li a {
+	height: 40px;
+	width: 100px;
+	float: left;
+	dispaly: block;
+	line-height: 40px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	padding: 0 30px 0 30px;
+	border-left: 1px solid #101010; 
+	font-family: "微软雅黑";
+}
+.index_content ul li a:link, .index_content ul li a:visited {
+	text-decoration: none;
+}
+.index_content ul li a:hover, .index_content ul li a:active {
+	background: url("../images/nav_h.jpg") no-repeat;
+	text-decoration: underline;
+}
+
+.bg {
+	width: 100%;
+	height: 679px;
+	background: url("../images/bg5.jpg") repeat-x;
+}
+.nav {
+	width: 1000px;
+	height: 679px;
+	margin: 0 auto;
+}
+.nav_main_bg {
+	width: 1000px;
+	height: 261px;
+	overflow: hidden;
+}
+.nav_main_bg ul li {
+	list-style-type: none;
+}
+
+.nav_content {
+	background: #fff;
+	width: 1000px;
+	height: 413px;
+	border-top: 5px solid #000;
+}
+.box {
+	width: 400px;
+	height: 200px;
+	border-bottom: 1px solid #ccc;
+	float: left;
+	padding: 0 50px 0 50px;
+}
+.nav_logo {
+	margin: 30px 15px 30px 0;
+	float: left;
+}
+.box h2 {
+	margin: 30px 0 10px 0;
+}
+.box h2 a {
+	font-size: 17px;
+	color: #bb4513;
+}
+.box h2 a:link, .box h2 a:visited {
+	text-decoration: none;
+}
+.box h2 a:hover, .box h2 a:active {
+	text-decoration: underline;
+}
+.box p{
+	line-height: 17px;
+	font-size: 12px;
+}
+.nav_download {
+	margin-top: 15px;
+}
+.box span {
+	float: right;
+	line-height: 39px;
+}
+.box span a:link, .box span a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.box span a:hover, .box span a:active {
+	text-decoration: underline;
+	color: #000;
+}
+.box1 {
+	width: 450px;
+	height: 180px;
+	float: left;
+	margin: 20px 0 20px 50px;
+	border-right: 1px #ccc solid; 
+}
+.box1_title {
+	width: 200px;
+	height: 30px;
+	margin-bottom: 5px;
+}
+.box1_title img, .box1_title h2 {
+	float: left;
+}
+.box1_title h2 {
+	line-height: 30px;
+	padding-left: 15px;
+	font-size: 18px;
+}
+.box1 ul li {
+	list-style-type: none;
+	line-height: 20px;
+}
+.box1 ul li a {
+	background: url("../images/icon6.jpg") no-repeat left;
+	float: left;
+	padding-left: 15px;
+	line-height: 30px;
+}
+.box1 ul li a:link, .box1 ul li a:visited {
+	text-decoration: none;
+	color: #000;
+}
+.box1 ul li a:hover, .box1 ul li a:active {
+	text-decoration: underline;
+	color: #ff0000;
+}
+.box1 ul li p {
+	float: right;
+	padding-right: 10px;
+	line-height: 30px;
+}
+.box1_footer a {
+	clear: both;
+	float: right;
+	padding: 10px 10px 0 0;
+	color: #000;
+}
+.box1_footer a:link, .box1_footer a:visited {
+	text-decoration: none;
+}
+.box1_footer a:hover, .box1_footer a:active {
+	text-decoration: underline;
+}
+.box2 {
+	width: 400px;
+	height: 180px;
+	float: left;
+	margin: 20px 0 20px 50px;
+}
+.img {
+	float: left;
+	margin-top: 18px;
+}
+.icon5 {
+	float: right;
+	margin-top: -30px;
+}
+.footer_bg {
+	width: 100%;
+	height: 52px;
+	background: url("../images/bg3.jpg") repeat-x;
+}
+.footer {
+	width: 1000px;
+	height: 52px;
+	margin: 0 auto;
+}
+.footer_left ul li {
+	list-style-type: none;
+	float: left;
+}
+.footer_left ul li a {
+	color: #454545;
+	padding: 0 10px 0 5px;
+	border-left: 1px #454545 solid;
+	line-height: 30px;
+}
+.footer_left ul li a:link, .footer_left ul li a:visited {
+	text-decoration: none;
+}
+.footer_left ul li a:hover, .footer_left ul li a:active {
+	text-decoration: underline;
+}
+.footer_right {
+	float: right;
+}
+.footer_right img {
+	float: left;
+	text-align: center;
+}
+.footer_right span {
+	float: left;
+	color: #454545;
+	padding: 2px 0 0 0;
+	line-height: 17px;
+}
