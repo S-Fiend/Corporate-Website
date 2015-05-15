@@ -3,6 +3,7 @@
 	padding: 0;
 	font-family: "Arial";
 	font-size: 12px;
+	text-decoration: none;
 }
 .title {
 	background: url("../images/bg1.jpg");
@@ -49,7 +50,7 @@
 	height: 40px;
 	width: 100px;
 	float: left;
-	dispaly: block;
+	display: block;
 	line-height: 40px;
 	font-size: 14px;
 	color: #fff;
@@ -76,13 +77,73 @@
 	height: 679px;
 	margin: 0 auto;
 }
-.nav_main_bg {
+#nav_main_bg {
 	width: 1000px;
 	height: 261px;
 	overflow: hidden;
+	position: relative;
 }
-.nav_main_bg ul li {
-	list-style-type: none;
+#list {
+	width: 7000px;
+	height: 261px;
+	position: absolute;
+	z-index: 1;
+}
+#list img {
+	width: 1000px;
+	height: 261px;
+	float: left;
+}
+#buttons {
+	position: absolute;
+	left: 400px;
+	bottom: 20px;
+	width: 200px;
+	height: 10px;
+	z-index: 2;
+}
+#buttons span {
+	text-align: center;
+	line-height: 17px;
+	display: block;
+	float: left;
+	height: 17px;
+	width: 17px;
+	margin-left: 5px;
+	background: #333;
+	font-size: 12px;
+	color: #fff;
+	cursor: pointer;
+}
+#buttons .on {
+	background: #ff4500;
+}
+.arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top: 110px;
+	background: rgba(0,0,0,0.3);
+	line-height: 40px;
+	text-align: center;
+	font-size: 36px;
+	font-weight: bold;
+	cursor: pointer;
+	display: none;
+	z-index: 2;
+	color: #fff;
+}
+.arrow:hover {
+	background: rgba(0,0,0,0.7);
+}
+#nav_main_bg:hover .arrow {
+	display: block;
+}
+#prev {
+	left: 20px;
+}
+#next {
+	right: 20px;
 }
 
 .nav_content {
